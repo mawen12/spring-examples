@@ -10,11 +10,12 @@
     </parent>
     <packaging>pom</packaging>
 
-    <artifactId>spring-aop-samples</artifactId>
+    <artifactId>spring-aop</artifactId>
     <name>${project.artifactId}</name>
 
     <modules>
         <module>java-aop-samples</module>
+        <module>spring-aop-samples</module>
     </modules>
 
     <dependencyManagement>

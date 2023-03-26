@@ -5,25 +5,32 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.mawen</groupId>
-        <artifactId>spring-aop-samples</artifactId>
+        <artifactId>spring-aop</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-    <artifactId>java-aop-samples</artifactId>
+    <artifactId>spring-aop-samples</artifactId>
     <name>${project.artifactId}</name>
 
     <dependencies>
         <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>3.2.4</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.7</version>
+        </dependency>
     </dependencies>
+
 
 </project>

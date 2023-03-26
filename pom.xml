@@ -12,7 +12,7 @@
     <name>${project.artifactId}</name>
     <description>Spring Framework Examples</description>
     <modules>
-        <module>spring-aop-samples</module>
+        <module>spring-aop</module>
     </modules>
 
     <scm>
