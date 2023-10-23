@@ -13,6 +13,7 @@
     <description>Spring Framework Examples</description>
     <modules>
         <module>spring-aop</module>
+        <module>spring-expression</module>
     </modules>
 
     <scm>
